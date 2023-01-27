@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#introcontainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#title {
+  font-style: italic;
+  animation: fadeIn ease-in 2s;
+}
+
+#description {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+#logindiv {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signinbuttons {
+  text-align: center;
+  font-size: 14px;
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid white;
+  margin: 5px;
+  border-radius: 20px;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+/* #maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+#discoverypage {
+  text-align: center;
+}
+
+#discoverycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#discoverymodal {
+  width: 650px;
+  height: 425px;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#discoveryinfocontainer {
+  width: 400px;
+}
+
+.discoverytitle {
+  font-size: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+}
