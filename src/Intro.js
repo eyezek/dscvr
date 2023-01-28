@@ -1,5 +1,4 @@
 import React from "react";
-import TypeWriter from "typewriter-effect";
 import SignInCreateAccount from "./SignInCreateAccount";
 
 class Intro extends React.Component {

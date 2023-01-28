@@ -10,11 +10,3 @@ import TypeWriter from "typewriter-effect";
 //         )
 //     }
 // }
-
-<TypeWriter
-  onInit={(typewriter) => {
-    typewriter
-      .typeString("Discover the underground gems you never knew existed.")
-      .pauseFor(5000).start;
-  }}
-/>;

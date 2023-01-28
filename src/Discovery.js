@@ -5,7 +5,7 @@ class Discovery extends React.Component {
   render() {
     return (
       <div id="discoverypage">
-        <h1 id="title">dscvry</h1>
+        <h1 id="discoverytitle">dscvry</h1>
         <div id="discoverycontainer">
           <img
             className="arrows"
