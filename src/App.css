@@ -86,11 +86,11 @@ body {
 
 #discoverymodal {
   width: 650px;
-  height: 425px;
+  height: 500px;
   border: 2px solid white;
   border-radius: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -103,6 +103,12 @@ body {
 }
 
 .avatar {
+  object-fit: contain;
   width: 200px;
   height: 200px;
+}
+
+.links {
+  text-decoration: none;
+  color: aqua;
 }
