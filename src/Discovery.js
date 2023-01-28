@@ -7,17 +7,17 @@ class Discovery extends React.Component {
       <div id="discoverypage">
         <h1 id="discoverytitle">dscvry</h1>
         <div id="discoverycontainer">
-          <img
+          {/* <img
             className="arrows"
             alt="Arrow"
             src={require("./images/icons/icons8-chevron-left-30.png")}
-          />
+          /> */}
           <DiscoveryModal />
-          <img
+          {/* <img
             className="arrows"
             alt="Arrow"
             src={require("./images/icons/icons8-chevron-right-30.png")}
-          />
+          /> */}
         </div>
       </div>
     );
