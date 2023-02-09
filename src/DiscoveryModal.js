@@ -63,6 +63,16 @@ class DiscoveryModal extends React.Component {
               spotifylink="https://open.spotify.com/track/5M3czI8WoA43GbldxswMUY?si=def84f3146bf4ede"
             />
           </div>
+          <div id="discoverymodal">
+            <DiscoveryInfo
+              type="Song"
+              img={require("./images/covers/foreign-exchange-liab.jpg")}
+              title="The Foreign Exchange - Leave It All Behind"
+              // description="Description"
+              youtubelink="https://www.youtube.com/watch?v=btS0v21HjiI"
+              spotifylink="https://open.spotify.com/track/5M3czI8WoA43GbldxswMUY?si=def84f3146bf4ede"
+            />
+          </div>
         </Carousel>
       </div>
     );
